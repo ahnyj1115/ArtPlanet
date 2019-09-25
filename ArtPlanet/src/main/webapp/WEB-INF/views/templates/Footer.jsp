@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-
-<!--================ start footer Area  =================-->
 <footer class="footer-area section_gap">
 	<div class="container">
 		<div class="row">
@@ -54,39 +52,19 @@
 				</div>
 			</div>
 			<!-- 
-                        <div class="col-lg-2 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h6>Follow Us</h6>
-                                <p>Let us be social</p>
-                                <div class="footer-social d-flex align-items-center">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-dribbble"></i></a>
-                                    <a href="#"><i class="fab fa-behance"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                         -->
+			<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="single-footer-widget">
+					<h6>Follow Us</h6>
+					<p>Let us be social</p>
+					<div class="footer-social d-flex align-items-center">
+						<a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i
+							class="fab fa-twitter"></i></a> <a href="#"><i
+							class="fab fa-dribbble"></i></a> <a href="#"><i
+							class="fab fa-behance"></i></a>
+					</div>
+				</div>
+			</div>
+			 -->
 		</div>
 	</div>
 </footer>
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="<c:url value='/resources/js/jquery-3.3.1.min.js'/>"></script>
-<script src="<c:url value='/resources/js/popper.js'/>"></script>
-<script src="<c:url value='/resources/js/bootstrap.min.js'/>"></script>
-<script src="<c:url value='/resources/js/stellar.js'/>"></script>
-<script src="<c:url value='/resources/vendors/isotope/imagesloaded.pkgd.min.js'/>"></script>
-<script src="<c:url value='/resources/vendors/isotope/isotope.pkgd.min.js'/>"></script>
-<script src="<c:url value='/resources/vendors/owl-carousel/owl.carousel.min.js'/>"></script>
-<script src="<c:url value='/resources/js/jquery.ajaxchimp.min.js'/>"></script>
-<script src="<c:url value='/resources/js/jquery.counterup.min.js'/>"></script>
-<script src="<c:url value='/resources/js/jquery.waypoints.min.js'/>"></script>
-<script src="<c:url value='/resources/js/mail-script.js'/>"></script>
-<script src="<c:url value='/resources/js/contact.js'/>"></script>
-<script src="<c:url value='/resources/js/jquery.form.js'/>"></script>
-<script src="<c:url value='/resources/js/jquery.validate.min.js'/>"></script>
-<script src="<c:url value='/resources/js/mail-script.js'/>"></script>
-<script src="<c:url value='/resources/js/theme.js'/>"></script>
