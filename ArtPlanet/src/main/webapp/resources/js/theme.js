@@ -12,10 +12,23 @@
         if ( $('.header_area').length ){ 
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();   
+				/* 탑메뉴 아래로 내려올시 */
                 if (scroll >= nav_offset_top ) {
                     $(".header_area").addClass("navbar_fixed");
-                } else {
+                    /*
+					$('.header_area .navbar .nav .nav-item .nav-link').css("color","black");
+					$('.header_area .navbar .nav .nav-item.active .nav-link').css("color","red");
+					$('.header_area .right-button ul li a').css("color","black");
+					*/
+                } 
+				/* 탑메뉴 상단에 있을시 */
+				else {
                     $(".header_area").removeClass("navbar_fixed");
+					/*
+					$('.header_area .navbar .nav .nav-item .nav-link').css("color","white");
+					$('.header_area .navbar .nav .nav-item.active .nav-link').css("color","red");
+					$('.header_area .right-button ul li a').css("color","white");
+					*/
                 }
             });
         };

@@ -1,6 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<!--================Hero Banner Area Start =================-->
+<section class="hero-banner">
+    <div class="container">
+        <h2>Our Blog</h2>
+        <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+<!--================Hero Banner Area End =================-->
 <section class="blog_area area-padding">
 	<div class="container">
 		<div class="row">

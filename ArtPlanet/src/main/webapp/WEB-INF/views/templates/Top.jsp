@@ -6,8 +6,8 @@
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
-				<a class="navbar-brand logo_h" href="Home.do"><img
-					src="<c:url value='/resources/img/logo.png'/>" alt=""></a>
+				<a class="navbar-brand logo_h" href="<c:url value='/Home'/>"><img
+					src="<c:url value='/resources/img/logo.png'/>" alt="logo"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -19,8 +19,8 @@
 				<div class="collapse navbar-collapse offset"
 					id="navbarSupportedContent">
 					<ul class="nav navbar-nav menu_nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="Home.do">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="About.do">About</a></li>
+						<li class="nav-item active"><a class="nav-link" href="<c:url value='/Home'/>">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="<c:url value='/About'/>">About</a></li>
 						<li class="nav-item"><a class="nav-link"
 							href="Search.do">search</a></li>
 						<!-- BLOG만 드랍다운메뉴 -->
@@ -28,12 +28,12 @@
 							class="nav-link dropdown-toggle" data-toggle="dropdown"
 							role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
 							<ul class="dropdown-menu">
-								<li class="nav-item"><a class="nav-link" href="Blog.do">Blog</a></li>
-								<li class="nav-item"><a class="nav-link" href="Blog2.do">Blog2</a></li>
+								<li class="nav-item"><a class="nav-link" href="<c:url value='/Blog'/>">Blog</a></li>
+								<li class="nav-item"><a class="nav-link" href="<c:url value='/Blog2'/>">Blog2</a></li>
 							</ul></li>
-						<li class="nav-item"><a class="nav-link" href="Project.do">Project</a></li>
-						<li class="nav-item"><a class="nav-link" href="ArtClass.do">Art	Class</a></li>
-						<li class="nav-item"><a class="nav-link" href="Others.do">Others</a></li>
+						<li class="nav-item"><a class="nav-link" href="<c:url value='/Project'/>">Project</a></li>
+						<li class="nav-item"><a class="nav-link" href="<c:url value='/ArtClass'/>">Art Class</a></li>
+						<li class="nav-item"><a class="nav-link" href="<c:url value='/Others'/>">Others</a></li>
 					</ul>
 					<!-- 검색돋보기-->
 					<div class="right-button">

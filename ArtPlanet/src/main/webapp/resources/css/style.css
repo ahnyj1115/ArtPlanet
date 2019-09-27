@@ -144,15 +144,17 @@ ul {
     .header_area .navbar .nav .nav-item {
       margin-right: 55px;
       position: relative; }
+      /* 탑메뉴 글씨 */
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/80px "Roboto", sans-serif;
         text-transform: uppercase;
-        color: #1a1d24;
+        color: black;
         padding: 0px;
         display: inline-block;
         font-size: 14px; }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
+		  /* 활성화된 탑메뉴 글씨 */
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
         color: #f81c1c; }
       .header_area .navbar .nav .nav-item.submenu {
@@ -199,6 +201,7 @@ ul {
             border-bottom: 1px solid #ededed;
             margin-left: 0px;
             transition: all 0.4s linear; }
+			/* 서브메뉴 */
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
               line-height: 45px;
               color: #1a1d24;
@@ -230,21 +233,24 @@ ul {
       font-family: "Roboto", sans-serif;
       font-size: 19px;
       transform: rotate(-6deg); }
+	  /* 탑메뉴 작대기 */
+	  
     .header_area .navbar .nav > .nav-item:before {
       content: '';
       position: absolute;
       right: 0px;
-      top: 39px;
+      top: 45px;
       left: 100%;
       height: 2px;
       background: #f81c1c;
       z-index: -1; }
     .header_area .navbar .nav > .nav-item:hover:before {
-      left: -22px;
+      left: 0px;
       transition: all 300ms linear 0s; }
     .header_area .navbar .nav > .nav-item.active:before {
-      left: -22px;
+      left: 0px;
       transition: all 300ms linear 0s; }
+	  /* 탑메뉴 스크롤 내려서 고정됐을때 */
   .header_area.navbar_fixed .main_menu {
     position: fixed;
     width: 100%;
@@ -256,11 +262,12 @@ ul {
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
+	/* 탑메뉴 돋보기 */
   .header_area .right-button {
     margin-left: 80px;
     margin-top: 18px; }
     .header_area .right-button ul li a {
-      color: #1a1d24;
+      color: black;
       font-size: 14px; }
 
 #search_input_box {
@@ -309,9 +316,9 @@ ul {
   font-weight: 600;
   cursor: pointer;
   padding: 10px; }
-
+/* 검색창 */
 .search-inner {
-  background: #f81c1c;
+  background: red;
   padding: 5px 15px; }
 
 .form-control:focus {

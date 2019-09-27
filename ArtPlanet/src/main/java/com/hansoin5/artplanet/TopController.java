@@ -7,57 +7,57 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TopController
 {
 	
-	@RequestMapping("Home.do")
+	@RequestMapping("/Home")
 	public String home()
 	{
 		return "Home.tiles";
 	}
 	
-	@RequestMapping("About.do")
+	@RequestMapping("/About")
 	public String about()
 	{
 		return "about/About.tiles";
 	}
 	
-	@RequestMapping("Search.do")
+	@RequestMapping("/Search")
 	public String search()
 	{
 		return "contents/Search.tiles";
 	}
 	
-	@RequestMapping("Blog.do")
+	@RequestMapping("/Blog")
 	public String blog()
 	{
 		return "contents/blog/Blog.tiles";
 	}
 	
-	@RequestMapping("Blog2.do")
+	@RequestMapping("/Blog2")
 	public String blog2()
 	{
 		return "contents/blog/Blog2.tiles";
 	}
 	
-	@RequestMapping("Project.do")
+	@RequestMapping("/Project")
 	public String project()
 	{
 		return "contents/project/Project.tiles";
 	}
 	
-	@RequestMapping("ArtClass.do")
+	@RequestMapping("/ArtClass")
 	public String art_class()
 	{
 		return "sub/art_class/ArtClass.tiles";
 	}
 	
-	@RequestMapping("ArtClass2.do")
+	@RequestMapping("/ArtClass2")
 	public String art_class2()
 	{
 		return "sub/art_class/ArtClass2.tiles";
 	}
 	
-	@RequestMapping("Others.do")
+	@RequestMapping("/Others")
 	public String others()
 	{
-		return "Home.tiles";
+		return "supporter/report/Report.tiles";
 	}
 }
