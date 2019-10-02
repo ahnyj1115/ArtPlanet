@@ -20,6 +20,14 @@
 
  
 }
+.img2 {
+ width: 300px ; 
+ height: 300px;
+ max-width :100%;
+ max-height: 100%;
+
+ 
+}
 
 </style>
 
@@ -48,6 +56,34 @@
 
 	<!-- Modernizer js -->
 	<script src="<c:url value='/resources/artclass/js/vendor/modernizr-3.5.0.min.js'/>"></script>
+
+    <!-- Bootstrap -->
+    <link href="<c:url value='/resources/template/vendors/bootstrap/dist/css/bootstrap.min.css'/>" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="<c:url value='/resources/template/vendors/font-awesome/css/font-awesome.min.css'/>" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="<c:url value='/resources/template/vendors/nprogress/nprogress.css'/>" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="<c:url value='/resources/template/vendors/bootstrap-daterangepicker/daterangepicker.css'/>" rel="stylesheet">
+    <!-- bootstrap-datetimepicker -->
+    <link href="<c:url value='/resources/template/vendors/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css'/>" rel="stylesheet">
+    <!-- Ion.RangeSlider -->
+    <link href="<c:url value='/resources/template/vendors/normalize-css/normalize.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/template/vendors/ion.rangeSlider/css/ion.rangeSlider.css'/>" rel="stylesheet">
+    <link href="<c:url value='/resources/template/vendors/ion.rangeSlider/css/ion.rangeSlider.skinFlat.css'/>" rel="stylesheet">
+    <!-- Bootstrap Colorpicker -->
+    <link href="<c:url value='/resources/template/vendors/mjolnic-bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css'/>" rel="stylesheet">
+
+    <link href="<c:url value='/resources/template/vendors/cropper/dist/cropper.min.css'/>" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="<c:url value='/resources/template/build/css/custom.min.css'/>" rel="stylesheet">
+
+
+
+
+
+
 </head>
 <body>
 	<!--[if lte IE 9]>
@@ -62,36 +98,36 @@
                     <div class="col-lg-8 col-md-12 col-sm-12">
                         <div class="food__menu__container">
                             <div class="food__menu__inner d-flex flex-wrap flex-md-nowrap flex-lg-nowrap">
-                                <div class="food__menu__thumb">
-                                  <img class="img1" src="<c:url value='/resources/artclass/images/menu-list/1.jpg'/>" alt="images">
+                                <div class="thumb">
+                                  <img class='img2'src="<c:url value='/resources/artclass/images/menu-list/1.jpg'/>" alt="images">
                                  
-                                </div>
+                                 </div> <!-- class=thumb -->
                                 <div class="food__menu__details">
                                     <div class="food__menu__content">
                                         <h2>민화</h2>
                                         <ul class="food__dtl__prize d-flex">
-                                            <li class="old__prize">￦30,000</li>
+                                            
                                             <li>￦30,000</li>
                                         </ul>
-                                        <ul class="rating">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                        <p>.</p>
+                                       
+                                        <p>민화 클래스입니다.</p>
                                         <div class="product-action-wrap">
-                                            <div class="prodict-statas"><span>민화예요</span></div>
+                                            <div class="prodict-statas"><span>민화예요</span><button>  <a href="<c:url value='/TextArea'/>"> 수정</a></button>   </div>
+                                           <div class="input-prepend input-group">
+                                		   <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                               			   <input type="text" name="reservation-time" id="reservation-time" class="form-control" value="01/01/2016 - 01/25/2016" />
+                              				  </div>
+                                           
                                             <div class="product-quantity">
                                                 <form id='myform' method='POST' action='#'>
                                                     <div class="product-quantity">
-                                                        <div class="cart-plus-minus">
-                                                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="02">
+                                                        
+                                                            
                                                             <div class="add__to__cart__btn">
                                                                 <a class="food__btn" href="cart.html">Add To Cart</a>
                                                             </div>
-                                                        </div>
+                                                        
+                                                       
                                                     </div>
                                                 </form>
                                             </div>
@@ -474,6 +510,69 @@
 	<script src="<c:url value='/resources/artclass/js/bootstrap.min.js'/>"></script>
 	<script src="<c:url value='/resources/artclass/js/plugins.js'/>"></script>
 	<script src="<c:url value='/resources/artclass/js/active.js'/>"></script>
+   <!-- 추가 -->
+<!-- jQuery -->
+    <script src="<c:url value='/resources/template/vendors/jquery/dist/jquery.min.js'/>"></script>
+    <!-- Bootstrap -->
+    <script src="<c:url value='/resources/template/vendors/bootstrap/dist/js/bootstrap.min.js'/>"></script>
+    <!-- FastClick -->
+    <script src="<c:url value='/resources/template/vendors/fastclick/lib/fastclick.js'/>"></script>
+    <!-- NProgress -->
+    <script src="<c:url value='/resources/template/vendors/nprogress/nprogress.js'/>"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="<c:url value='/resources/template/vendors/moment/min/moment.min.js'/>"></script>
+    <script src="<c:url value='/resources/template/vendors/bootstrap-daterangepicker/daterangepicker.js'/>"></script>
+    <!-- bootstrap-datetimepicker -->    
+    <script src="<c:url value='/resources/template/vendors/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js'/>"></script>
+    <!-- Ion.RangeSlider -->
+    <script src="<c:url value='/resources/template/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js'/>"></script>
+    <!-- Bootstrap Colorpicker -->
+    <script src="<c:url value='/resources/template/vendors/mjolnic-bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js'/>"></script>
+    <!-- jquery.inputmask -->
+    <script src="<c:url value='/resources/template/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js'/>"></script>
+    <!-- jQuery Knob -->
+    <script src="<c:url value='/resources/template/vendors/jquery-knob/dist/jquery.knob.min.js'/>"></script>
+    <!-- Cropper -->
+    <script src="<c:url value='/resources/template/vendors/cropper/dist/cropper.min.js'/>"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="<c:url value='/resources/template/build/js/custom.min.js'/>"></script>
+    
+    <!-- Initialize datetimepicker -->
+<script>
+    $('#myDatepicker').datetimepicker();
+    
+    $('#myDatepicker2').datetimepicker({
+        format: 'DD.MM.YYYY'
+    });
+    
+    $('#myDatepicker3').datetimepicker({
+        format: 'hh:mm A'
+    });
+    
+    $('#myDatepicker4').datetimepicker({
+        ignoreReadonly: true,
+        allowInputToggle: true
+    });
+
+    $('#datetimepicker6').datetimepicker();
+    
+    $('#datetimepicker7').datetimepicker({
+        useCurrent: false
+    });
+    
+    $("#datetimepicker6").on("dp.change", function(e) {
+        $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+    });
+    
+    $("#datetimepicker7").on("dp.change", function(e) {
+        $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+    });
+</script>
+
+
+
+
 
 </body>
 </html>

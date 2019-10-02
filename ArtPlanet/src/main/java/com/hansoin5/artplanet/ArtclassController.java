@@ -10,4 +10,12 @@ public class ArtclassController {
 	{
 		return "sub/art_class/View.tiles";
 	}
+	
+	@RequestMapping("/TextArea")
+	public String textarea()
+	{
+		return "sub/art_class/TextArea.tiles";
+	}
+	
+	
 }

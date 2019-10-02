@@ -67,14 +67,26 @@ width: 1300px !important;
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="food__nav nav nav-tabs" role="tablist">
-                   <a class="active" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab">전체보기</a>
+                	   <!-- 
+                	    <li class="active" data-filter="*">all</li>
+						<li data-filter=".weeding">일러스트 회화 </li>
+						<li data-filter=".motion">애니메이션</li>
+						<li data-filter=".portrait">디자인</li>
+						<li data-filter=".fashion">캘리그라피</li>
+						<li data-filter=".fashion">조소/공예</li>
+					  일러스트 회화 애니메이션 디자인 캘리그라피 조소/공예	                   
+                   -->
+                   
+                    <a class="active" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab">전체보기</a>
                     <a id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab">민화,동양화</a>
                     <a id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab">팝아트,아크릴,인물화</a>
                     <a id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab">서예,캘리그라피</a>
                     <a id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab">드로잉,일러스트</a>
-                    <a id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab">기타</a>
+                    <a id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab">기타</a> 
+                       
+                    
                         </div>
-                    </div>
+                    </div> 
                 </div>
                <div class="row mt--30">
             <div class="col-lg-12">
@@ -90,10 +102,10 @@ width: 1300px !important;
                             </div>
                             <div class="food__list__inner d-flex align-items-center justify-content-between">
                                 <div class="food__list__details">
-                                    <h2><a href="ArtClass2.jsp">민화</a></h2>
+                                    <h2>  <a href="<c:url value='/View'/>">민화</a></h2>
                                     <p>민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화민화</p>
                                     <div class="list__btn">
-                                        <a class="food__btn grey--btn theme--hover" href="ArtClass2.jsp">상세 보기</a>
+                                        <a class="food__btn grey--btn theme--hover" href="<c:url value='/View'/>">상세 보기</a>
                                     </div>
                                 </div>
                                 <div class="food__rating">
@@ -126,7 +138,7 @@ width: 1300px !important;
                                     <h2>  <a href="<c:url value='/View'/>">동양화</a></h2>
                                     <p>동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화동양화</p>
                                     <div class="list__btn">
-                                        <a class="food__btn grey--btn theme--hover" href="menu-details.html">상세 보기</a>
+                                        <a class="food__btn grey--btn theme--hover" href="<c:url value='/View'/>">상세 보기</a>
                                     </div>
                                 </div>
                                 <div class="food__rating">
@@ -162,7 +174,7 @@ width: 1300px !important;
                                     <h2>  <a href="<c:url value='/View'/>">아크릴</a></h2>
                                     <p>아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴아크릴.</p>
                                     <div class="list__btn">
-                                        <a class="food__btn grey--btn theme--hover" href="menu-details.html">상세 보기</a>
+                                        <a class="food__btn grey--btn theme--hover" href="<c:url value='/View'/>">상세 보기</a>
                                     </div>
                                 </div>
                                 <div class="food__rating">
@@ -194,10 +206,10 @@ width: 1300px !important;
                             </div>
                             <div class="food__list__inner d-flex align-items-center justify-content-between">
                                 <div class="food__list__details">
-                                    <h2><a href="menu-details.html">서예</a></h2>
+                                    <h2>  <a href="<c:url value='/View'/>">서예</a></h2>
                                     <p>서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예서예</p>
                                     <div class="list__btn">
-                                        <a class="food__btn grey--btn theme--hover" href="menu-details.html">상세 보기</a>
+                                        <a class="food__btn grey--btn theme--hover" href="<c:url value='/View'/>">상세 보기</a>
                                     </div>
                                 </div>
                                 <div class="food__rating">
@@ -224,7 +236,7 @@ width: 1300px !important;
                             </div>
                             <div class="food__list__inner d-flex align-items-center justify-content-between">
                                 <div class="food__list__details">
-                                    <h2><a href="menu-details.html">캘리크라피</a></h2>
+                                    <h2>  <a href="<c:url value='/View'/>">캘리크라피</a></h2>
                                     <p>캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피캘리크라피.</p>
                                     <div class="list__btn">
                                         <a class="food__btn grey--btn theme--hover" href="menu-details.html">상세 보기</a>
@@ -259,10 +271,10 @@ width: 1300px !important;
                             </div>
                             <div class="food__list__inner d-flex align-items-center justify-content-between">
                                 <div class="food__list__details">
-                                    <h2><a href="menu-details.html">드로잉</a></h2>
+                                    <h2>  <a href="<c:url value='/View'/>">드로잉</a></h2>
                                     <p>드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉드로잉</p>
                                     <div class="list__btn">
-                                        <a class="food__btn grey--btn theme--hover" href="menu-details.html">상세 보기</a>
+                                        <a class="food__btn grey--btn theme--hover" href="<c:url value='/View'/>">상세 보기</a>
                                     </div>
                                 </div>
                                 <div class="food__rating">
@@ -289,10 +301,10 @@ width: 1300px !important;
                             </div>
                             <div class="food__list__inner d-flex align-items-center justify-content-between">
                                 <div class="food__list__details">
-                                    <h2><a href="menu-details.html">일러스트</a></h2>
+                                    <h2>  <a href="<c:url value='/View'/>">일러스트</a></h2>
                                     <p>일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트일러스트</p>
                                     <div class="list__btn">
-                                        <a class="food__btn grey--btn theme--hover" href="menu-details.html">상세 보기</a>
+                                        <a class="food__btn grey--btn theme--hover" href="<c:url value='/View'/>">상세 보기</a>
                                     </div>
                                 </div>
                                 <div class="food__rating">
@@ -325,10 +337,10 @@ width: 1300px !important;
                             </div>
                             <div class="food__list__inner d-flex align-items-center justify-content-between">
                                 <div class="food__list__details">
-                                    <h2><a href="menu-details.html">기타</a></h2>
+                                    <h2>  <a href="<c:url value='/View'/>">기타</a></h2>
                                     <p>기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타기타</p>
                                     <div class="list__btn">
-                                        <a class="food__btn grey--btn theme--hover" href="menu-details.html">상세 보기</a>
+                                        <a class="food__btn grey--btn theme--hover" href="<c:url value='/View'/>">상세 보기</a>
                                     </div>
                                 </div>
                                 <div class="food__rating">
